@@ -31,3 +31,22 @@ build/
 
 ### VS Code ###
 .vscode/
+
+# Exclure les fichiers de configuration sensibles
+application.properties
+application.yml
+.env
+
+# Exclure les fichiers de logs
+*.log
+logs/
+log/
+
+# Exclure les fichiers et dossiers générés par Maven
+.mvn/
+target/
+build/
+
+# Exclure les fichiers spécifiques à Docker (si applicable)
+docker-compose.override.yml
+
